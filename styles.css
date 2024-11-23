@@ -1,0 +1,74 @@
+/***Roots***/
+    :root {
+        /*Colors*/
+        --white-color: hsl(0, 0%, 100%);
+        --300-slate-color: hsl(212, 45%, 89%);
+        --500-slate-color: hsl(216, 15%, 48%);
+        --900-slate-color: hsl(218, 44%, 22%);
+        --blue-color: hsl(228, 45%, 44%);
+        /*End Colors*/
+
+        /*Font Styles*/
+        --main-font-family: 'Outfit', 'Arial', sans-serif;
+        --11-font-size: .733rem;
+        --15-font-size: 1rem;
+        --400-Font-Weight: 400;
+        --700-Font-Weight: 700;
+        /*End Font Styles*/
+    }
+/***End Roots***/
+/***Rest***/
+    * {
+        box-sizing: border-box;
+    }        
+/***End Rest***/
+/***HTML***/
+    html {
+        background-color: var(--300-slate-color);
+    }
+/***End HTML***/
+/***Body***/
+    body {
+        font-family: var(--main-font-family);
+        font-weight: var(--400-Font-Weight);
+        color: var(--500-slate-color);
+        font-size: 15px;
+        font-weight: var(--400-Font-Weight);
+        text-align: center;
+        max-width: 215px;
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }    
+
+    img {
+      max-width: 100%;  
+    }
+
+   .wrapper {
+    font-size: var(--11-font-size);
+    background-color: var(--white-color);
+    border-radius: 10px;
+    padding: 15px;
+    
+    }
+
+    .title {
+        font-size: var(--15-font-size);
+        color: var(--900-slate-color);
+        font-weight: var(--700-Font-Weight);
+    }
+
+    .attribution { 
+        font-size: var(--11-font-size); 
+        text-align: center;
+        position: sticky;
+    }
+
+    .attribution a { 
+        color: var(--blue-color);
+    }
+/***End Body***/
+
